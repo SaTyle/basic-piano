@@ -6,13 +6,25 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+html{
+  height: 100%;
+}
 body {
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  /* min-height: 100%; */
+  flex-direction: column;
   background: #E3F2FD;
 }
+
+.footer{
+  margin-top: auto;
+}
+.fotDiv{
+}
+
 .wrapper {
   padding: 35px 40px;
   border-radius: 20px;
@@ -159,3 +171,4 @@ header input {
     width: 50px;
   }
 }
+
